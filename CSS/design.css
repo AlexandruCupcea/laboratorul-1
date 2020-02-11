@@ -1,0 +1,133 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+.container {
+  display: inline-block;
+  background: #E9EAE7;
+  width: 300px;
+  height: 1000;
+  margin-left: 1200px;
+  border: solid;
+  position: relative;
+}
+.login {
+  border: 3px solid black;
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  text-align: center;
+  overflow: hidden;
+  transition: 0.2s;
+  margin-top: 120px;
+
+}
+.login:hover {
+  color: #225784;
+  background: #2196f3;
+  box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+}
+.center {
+  background: #fff;
+}
+p {
+  margin-top: 100px;
+  font-family: "PT Sans", Arial;
+  font-size: 18px;
+  text-align: center;
+  font-style: oblique;
+  text-shadow: #DCD3C0;
+}
+.image {
+  width: 500px;
+  height: 310px;
+  margin-left: 500px;
+  color: black;
+  overflow: hidden;
+  transition: 0.2s;
+}
+.image:hover {
+  color: #9A847A;
+  background: #9A847A;
+  box-shadow: 0 0 10px #9A847A, 0 0 40px #9A847A, 0 0 80px #9A847A;
+}
+.photo {
+  border: solid;
+  width: 650px;
+  height: 400px;
+  margin-top: 200px;
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background: #000;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 25px;
+}
+
+footer a {
+  color: white;
+  font-size: 20px;
+  margin-left: 10px;
+}
+footer nav a:hover{
+  border-bottom: 1px solid white;
+}
+.social img{
+  margin-left: 10px;
+  margin-bottom: 10px;
+
+}
+.social img:hover{
+  background: #494949;
+  border-radius: 50%;
+}
+
+.text {
+  color: white;
+}
+.logo {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+}
+table {
+border: 1px solid #69c;
+border-collapse: separate;
+empty-cells: hide;
+}
+th, td {border: 2px solid #69c;
+}
+
+.lexusname {
+  font-family: "PT Sans", Arial;
+  text-align: center;
+  font-style: oblique;
+}
